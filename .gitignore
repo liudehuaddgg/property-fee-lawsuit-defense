@@ -1,0 +1,25 @@
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# 本地个人材料（防止误提交真实案件文件）
+/private/
+/local/
+真实案件/
+未脱敏/
+*.pdf
+*.docx
+*.jpg
+*.png
