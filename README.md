@@ -1,4 +1,4 @@
-﻿# property-fee-defense
+﻿# property-fee-lawsuit-defense
 
 > 业主被物业公司起诉追缴物业费时的应诉方法论 —— 一个给 AI Agent 用的 Skill。
 >
@@ -65,26 +65,28 @@ CHANGELOG.md                      版本记录
 
 ## 安装
 
+> 仓库名为便于搜索叫 `property-fee-lawsuit-defense`，但 Skill 内部名（`SKILL.md` 的 `name` 字段与目录名）保持简短的 `property-fee-defense`。安装时按下面的路径放即可。
+
 Skill 本质是一个带 frontmatter 的 Markdown 目录。
 
 ### opencode
 
 ```bash
-git clone https://github.com/liudehuaddgg/property-fee-defense.git \
+git clone https://github.com/liudehuaddgg/property-fee-lawsuit-defense.git \
   ~/.config/opencode/skills/property-fee-defense
 ```
 
 Windows（PowerShell）：
 
 ```powershell
-git clone https://github.com/liudehuaddgg/property-fee-defense.git `
+git clone https://github.com/liudehuaddgg/property-fee-lawsuit-defense.git `
   "$env:USERPROFILE\.config\opencode\skills\property-fee-defense"
 ```
 
 ### Claude Code
 
 ```bash
-git clone https://github.com/liudehuaddgg/property-fee-defense.git \
+git clone https://github.com/liudehuaddgg/property-fee-lawsuit-defense.git \
   ~/.claude/skills/property-fee-defense
 ```
 
